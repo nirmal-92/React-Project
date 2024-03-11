@@ -1,4 +1,4 @@
-
+import reactLogo from './assets/react.svg'
 import React, { useState } from 'react'
 import {Link} from "react-router-dom"
 
@@ -12,6 +12,7 @@ export const Navbar=(props)=>{
     }
     return (
       <nav className="navbar">
+        <img src={reactLogo} className='appBarImg'/>
         <div className="navbar-logo">Website</div>
         <ul className="navbar-links">
           <li><a href="#">Home</a></li>

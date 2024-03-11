@@ -1,0 +1,30 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  background-color: yellow;
+  font-weight: bold;
+  margin-right: 10px;
+  width: 100%;
+  
+}
+
+.navbar ul{
+  display: flex;
+  position: fixed;
+  top: 0;
+  flex-direction: row;
+  list-style: none;
+  text-align: justify;
+  margin: 0;
+  padding: 0;
+  background-color: yellow;
+  margin-top: 2.5rem;
+}
+.navbar ul li{
+  margin-left: 100px;
+  
+}
+
+

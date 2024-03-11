@@ -18,7 +18,7 @@ function App() {
   return (
     <> 
       <div>{a}</div>
-      <AppBar name={name} num={initialValue} handleClick={handleClick}/>
+      <Navbar name={name} num={initialValue} handleClick={handleClick}/>
     </>
   )
 }
